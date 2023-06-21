@@ -1,8 +1,8 @@
 public class Funcionario {
 
-    private String nome;
-    private Integer idade;
-    private Double salario;
+    protected String nome;
+    protected Integer idade;
+    protected Double salario;
 
     public Funcionario(String nome, Integer idade, Double salario) {
         this.nome = nome;
@@ -10,7 +10,7 @@ public class Funcionario {
         this.salario = salario;
     }
 
-    public static Double calculaDecimoTerceiroSalario(Double salario){
+    public Double calculaDecimoTerceiroSalario(Double salario){
         return salario + salario * 0.10;
     }
 
@@ -24,8 +24,8 @@ public class Funcionario {
                 + funcionario.idade + " Salario= "
                 + funcionario.salario);
 
-        Double decimoTerceiro = calculaDecimoTerceiroSalario(funcionario.salario);
+//        Double decimoTerceiro = calculaDecimoTerceiroSalario(funcionario.salario);
 
-        System.out.println("O decimo terceiro salario do funcionario " + funcionario.nome + " será: " + decimoTerceiro);
+//        System.out.println("O decimo terceiro salario do funcionario " + funcionario.nome + " será: " + decimoTerceiro);
     }
 }
