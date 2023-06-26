@@ -1,3 +1,5 @@
+package poo;
+
 public class Medico extends Funcionario implements AbonoSalarial {
 
     private String especialidade;
@@ -13,7 +15,7 @@ public class Medico extends Funcionario implements AbonoSalarial {
 
     @Override
     public String toString() {
-        return "Medico{" +
+        return "poo.Medico{" +
                 "nome='" + nome + '\'' +
                 ", idade=" + idade +
                 ", salario=" + salario +
@@ -26,7 +28,7 @@ public class Medico extends Funcionario implements AbonoSalarial {
         Medico medico = new Medico("Stephanie", 24, 10000.00, "Pediatra", "0001");
         Double decimoTerceiro = medico.calculaDecimoTerceiroSalario(10000.00);
 
-        System.out.println("Medico : " + medico);
+        System.out.println("poo.Medico : " + medico);
         System.out.println("Decimo terceiro salario do médico " + medico.nome + " será: " + decimoTerceiro);
 
         System.out.println("Abono deste médico será: " + medico.abono);

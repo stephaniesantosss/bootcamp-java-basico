@@ -1,3 +1,5 @@
+package poo;
+
 public class Analista extends Funcionario implements AbonoSalarial{
 
     private String nivelCargo;
@@ -11,7 +13,7 @@ public class Analista extends Funcionario implements AbonoSalarial{
 
     @Override
     public String toString() {
-        return "Analista{" +
+        return "poo.Analista{" +
                 "nivelCargo='" + nivelCargo + '\'' +
                 ", nome='" + nome + '\'' +
                 ", idade=" + idade +
@@ -22,7 +24,7 @@ public class Analista extends Funcionario implements AbonoSalarial{
     public static void main(String[] args) {
         Analista analista = new Analista("Stephanie", 24, 10000.00, "Pleno");
 
-        System.out.println("Analista : " + analista);
+        System.out.println("poo.Analista : " + analista);
         System.out.println("O abono deste analista será: " + analista.abono);
     }
 

@@ -1,3 +1,4 @@
+package poo;
 
 public class ContaCorrente {
 
@@ -33,7 +34,7 @@ public class ContaCorrente {
 
     @Override
     public String toString() {
-        return "ContaCorrente{" +
+        return "poo.ContaCorrente{" +
                 "agencia='" + agencia + '\'' +
                 ", numConta='" + numConta + '\'' +
                 ", saldo=" + saldo +

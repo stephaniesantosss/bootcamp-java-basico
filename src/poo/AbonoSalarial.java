@@ -1,3 +1,4 @@
+package poo;
 
 public interface AbonoSalarial {
 
