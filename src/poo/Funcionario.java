@@ -1,3 +1,5 @@
+package poo;
+
 public class Funcionario {
 
     protected String nome;
@@ -17,9 +19,9 @@ public class Funcionario {
     public static void main(String[] args) {
         Funcionario funcionario = new Funcionario("Stephanie", 24, 2000.00);
 
-        //System.out.println("Funcionario: " + funcionario);
+        //System.out.println("poo.Funcionario: " + funcionario);
 
-        System.out.println("Funcionario: Nome= "
+        System.out.println("poo.Funcionario: Nome= "
                 + funcionario.nome + " Idade= "
                 + funcionario.idade + " Salario= "
                 + funcionario.salario);
